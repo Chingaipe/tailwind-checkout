@@ -1,13 +1,13 @@
 {
   "name": "checkout-page",
   "version": "1.0.0",
-  "description": "",
+  "description": "Checkout page built with tailwindcss",
   "main": "index.js",
   "scripts": {
     "build": "postcss css/tailwind.css -o public/css/tailwind.css"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alick",
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^9.8.5",

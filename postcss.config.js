@@ -6,7 +6,7 @@ module.exports = {
       content: [
         './public/index.html'
       ],
-      defaultExtractor: content.match(/[A-Za-z0-9-_:/]+/g) || []
+      defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || []
     })
   ]
 }
